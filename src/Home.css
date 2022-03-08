@@ -1,0 +1,126 @@
+.bodyContainer {
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\public\images\metal1.jpg);
+    width: 100vw;
+    height: 100vh;
+   
+    position: fixed;
+}
+
+.pic1Container {
+    display: flex;
+    width: 17vw;
+    height: 33vh;
+    margin-top: 15vh;
+    margin-left: 5vw;
+
+
+}
+
+.Login {
+    display: flex;
+    width: 30vw;
+    height: 29vh;
+    background-color: blue;
+    margin-left: 52vw;
+    margin-top: -31vh;
+}
+
+.pic1 {
+    background: transparent;
+    display: flex;
+    width: 16vw;
+    height: 32vh;
+    margin-left: .5vw;
+    margin-top: .5vh;
+}
+
+.pic1 img {
+    flex: 1;
+    position: fixed;
+    
+   
+}
+
+
+.title {
+    height: 5vh;
+    display: flex;
+    margin-top: 1vh;
+    color:  silver;
+    width: 16vw;
+   
+    margin-left: 6.52vw;
+
+
+}
+
+h1 {
+    margin-top: -.2vh;
+    font-size: 2.7vh;
+   
+}
+
+.home__meta {
+    position: absolute;
+    bottom: 7vh;
+    margin-left: 5vw;
+    width: 90%;
+    min-width: 25%;
+    position: relitive;
+    height: 26vh;    
+    
+    
+}
+
+
+
+h2.home__text.pz__10 {
+    display: flex;
+    font-size: 4.5vh;
+    line-height: 5vh;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+    width: 70vw;
+    height: 5vh;
+    position: absolute;
+    bottom: 17.5vh;
+    color: silver;
+    
+   /* background:green; */
+}
+h3.home__text.sweet.pz__10{
+    display: flex;
+   
+    font-size: 6vh;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    line-height: 5.4vh;
+    height: 5.5vh;
+    width: 90%;
+    position: absolute;
+    bottom: 4vh;
+    width: 90%;
+    color: green;
+    text-align: left;
+    
+    
+}
+h4.home__text.quote.pz__12 {
+    
+   
+    display: flex;
+    height: 8vh;
+    position: absolute;
+    bottom: -5vh;
+    font-size: 2vw;
+    font-size: 4vh;
+    line-height: 4.5vh;
+    color:  silver;
+    width: 87vw;
+    height: 9.5vh;
+    
+}
+
+
+
+

@@ -1,0 +1,113 @@
+.AboutContainer {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\public\images\greenback.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+}
+
+.pic2Container {
+    display: flex;
+    width: 20vw;
+    height: 53vh;
+    background-color: transparent;
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+
+.pic2 {
+    display: flex;
+    width: 19vw;
+    height: 42vh;
+    flex: 1 1;
+    aspect-Ratio: 1.5;
+    resize: 'contain';
+    position: fixed;
+    margin-left: .52vw;
+    margin-top: 1vh;
+
+
+
+}
+
+.pic2 img {
+    display: flex;
+    flex: 1;
+    position: fixed;
+    margin-left: .5vw;
+    width: 18vw;
+    height: 40vh;
+    margin-top: 1vh;
+}
+
+.name {
+    display: flex;
+    color: silver;
+    margin-top: 42vh;
+    margin-left: 0vw;
+    background: transparent;
+    width: 98vw;
+    height: 5vh;
+    margin-right: 0vw;
+    font-size: 4vh;
+    justify-content: center;
+    
+}
+
+.paraContainer {
+    display: flex;
+    width: 44vw;
+    height: 44.7vh;
+    background: transparent;
+    margin-top: 26.8vh;
+    margin-left: 15vw;
+}
+.title1 {
+    line-height: 4vh;
+    height: 8.2vh;
+    width: 43vw;
+    margin-top: .5vh;
+    margin-left: .5vw;
+    color: silver;
+    background: transparent;
+    font-size: 4.5vh;
+    justify-content: center;
+
+}
+
+.title1 h2 {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    line-height: 6.2vh;
+    margin-top: .48vh;
+
+    
+}
+
+.title1 p {
+    display: flex;
+    margin-left: -.5vh;
+    height: 36vh;
+    margin-top: -5vh;
+    justify-content: left;
+    text-align: left;
+    font-size: 3vh;
+    
+
+}
+
+
+li {
+    color: silver
+}
+
+ul {
+    color: silver;
+}

@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+    margin-left: 5vw;
+    padding: 0;
+    display: flex;
+    width: 41vw;
+    background-image: url(http://localhost:3000/static/media/metal1.026a417….jpg);
+    height: 5vh;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+ 
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.5vh;
+  color: silver;
+  margin-top: -1vh;
+}

@@ -1,0 +1,180 @@
+.ServicesContainer {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: black;
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\public\images\greenback.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+}
+
+.pic2Container {
+    display: flex;
+    width: 20vw;
+    height: 34vh;
+    background-color: transparent;
+    margin-top: 19vh;
+    margin-left: 15vw;
+    position: fixed;
+}
+
+.pic2 {
+    display: flex;
+    width: 19vw;
+    height: 32vh;
+    flex: 1 1;
+    aspect-Ratio: 1.5;
+    resize: 'contain';
+    position: fixed;
+    margin-left: .52vw;
+    margin-top: 1vh;
+    background-color: transparent;
+}
+
+.pic2 img {
+    display: flex;
+    flex: 1 1;
+    position: fixed;
+    margin-left: 0.5vw;
+    width: 18vw;
+    height: 29vh;
+    margin-top: 1vh;
+    border-radius: 5px;;
+}
+
+.name {
+    display: flex;
+    color: silver;
+    margin-top: 42vh;
+    margin-left: 0vw;
+    background: transparent;
+    width: 98vw;
+    height: 5vh;
+    margin-right: 0vw;
+    font-size: 4vh;
+    justify-content: center;
+    
+}
+
+.paraContainer {
+    display: flex;
+    width: 41vw;
+    height: 47vh;
+    background: transparent;
+    margin-top: 13vh;
+    margin-left: 48vw;
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\public\images\metal1.jpg);
+    border-radius: 10px;
+    position: fixed;
+
+}
+
+.HeaderContainer {
+    font-size: 6vh;
+    display: flex;
+    background-color: transparent;
+    width: 27.5;
+    height: 8vh;
+    color: silver;
+    font-weight: 650;
+    margin-top: 1vh;
+    margin-left: 9vw;
+    margin-right: -70vw;
+    line-height: 7vh;
+    position: fixed;
+}
+
+.ServicesOffered {
+    display: grid;
+    height: 36.5vh;
+    width: 39.5vw;
+    margin-top: 9.5vh;
+    margin-left: .75vw;
+    color: silver;
+    background: transparent;
+    font-size: 3.5vh;
+    justify-items: left;
+    grid-template-rows: 6vh 6vh 6vh 6vh 6vh 6vh;
+    grid-template-columns: 37vw;
+    position: fixed;
+}
+
+
+
+li {
+    color: silver
+}
+
+ul {
+    color: silver;
+}
+
+
+
+/* .python {
+    background-color: green;
+}
+.web {
+    background-color: orange;    
+}
+
+.service3 {
+    background-color: aqua;
+}
+
+.service4 {
+    background-color: chocolate;
+}
+.service5 {
+    background-color: rgb(30, 99, 210);
+}
+
+.service6 {
+    background-color: rgb(182, 35, 219);
+} */
+
+
+.languages {
+    display: flex;
+    width: 36vw;
+    height: 33.5vh;
+    background-color: transparent;
+    position: fixed;
+    bottom: 3vh;
+    margin-left: 10vw;
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\public\images\metal1.jpg);
+    position: fixed;
+    border-radius: 6px;
+    
+}
+
+.headerL {
+    line-height: 4vh;
+    margin-left: 9vw;
+    font-size: 5vh;
+    margin-right: -36vw;
+    color: silver;
+}
+.headerL {
+    display: flex;
+    width: 18vw;
+    height: 5vh;
+    background-color: transparent;
+    margin-top: 1vh;
+}
+.langCon {
+    width: 35vw;
+    display: grid;
+    height: 25vh;
+    background-color: transparent;
+    grid-template-rows: 5vh 5vh 5vh 5vh 5vh 5vh;
+    grid-template-columns: 12vw 12vw 12vw;
+    font-size: 3vh;
+    justify-items: left;
+    margin-left: 9.5vw;
+    margin-top: 8vh;
+    color: silver;
+}

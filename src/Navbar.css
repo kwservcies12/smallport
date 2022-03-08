@@ -1,0 +1,10 @@
+.NavBarContainer {
+    display: flex;
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\src\images\metal1.jpg);
+    background-color: red;
+    position: fixed;
+    margin-left: .5vw;
+
+}
+
+
