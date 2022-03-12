@@ -7,6 +7,10 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import { Route } from "react-router-dom";
 import NavBar from "./NavBar";
+import LoginForm from "./LoginForm";
+
+
+
 
 function App() {
   return(
@@ -17,7 +21,8 @@ function App() {
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/services" component={Services} />
-      
+      <Route exact path="/LoginForm" component={LoginForm} />
+        
     </div>
   );
 }

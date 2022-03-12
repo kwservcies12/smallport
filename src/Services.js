@@ -4,13 +4,13 @@ import "./Services.css";
 function Services() {
     return(
         <div className="ServicesContainer">
-            <div className="pic2Container">
-                <div className="pic2">
+            <div className="pic3Container">
+                <div className="pic3">
                     <img src="/images/garcia.jpg" alt="" />
                 </div>
             </div>
             
-            <div className="paraContainer">
+            <div className="paraContainer3">
                 <div className="HeaderContainer">
                     <div className="header">Services Offered</div>
                 </div>

@@ -4,7 +4,16 @@
     background-color: red;
     position: fixed;
     margin-left: .5vw;
+    color: silver;
+
 
 }
 
+.NavBarContainer ul {
+    color: silver;
+}
 
+ul {
+    color: silver;
+    
+}

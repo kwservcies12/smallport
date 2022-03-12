@@ -11,7 +11,7 @@
 
 }
 
-.pic2Container {
+.pic3Container {
     display: flex;
     width: 20vw;
     height: 34vh;
@@ -21,7 +21,7 @@
     position: fixed;
 }
 
-.pic2 {
+.pic3 {
     display: flex;
     width: 19vw;
     height: 32vh;
@@ -34,7 +34,7 @@
     background-color: transparent;
 }
 
-.pic2 img {
+.pic3 img {
     display: flex;
     flex: 1 1;
     position: fixed;
@@ -59,7 +59,7 @@
     
 }
 
-.paraContainer {
+.paraContainer3 {
     display: flex;
     width: 41vw;
     height: 47vh;

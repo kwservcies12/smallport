@@ -7,10 +7,9 @@ function About() {
             <div className="pic2Container">
                 <div className="pic2">
                     <img src="/images/blueOffice.jpg" alt="" />
+                    <h5>Kane Whiteside</h5>
                 </div>
-                <div className="name">
-                    Kane Whiteside
-                </div>
+            
             </div>
             <div className="paraContainer">
                 <div className="title1">

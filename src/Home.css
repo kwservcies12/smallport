@@ -9,54 +9,63 @@
 .pic1Container {
     display: flex;
     width: 17vw;
-    height: 33vh;
+    height: 45vh;
     margin-top: 15vh;
     margin-left: 5vw;
-
+    background-color: transparent;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
 
 }
 
-.Login {
-    display: flex;
-    width: 30vw;
-    height: 29vh;
-    background-color: blue;
-    margin-left: 52vw;
-    margin-top: -31vh;
-}
+
 
 .pic1 {
     background: transparent;
     display: flex;
     width: 16vw;
-    height: 32vh;
-    margin-left: .5vw;
-    margin-top: .5vh;
+    height: 34vh;
+    justify-content: center;
+    margin-top: -10vh;
+    border-radius: 10px;
+    position: fixed;
 }
 
 .pic1 img {
+    display: flex;
+    width: 15vw;
     flex: 1;
+    border-radius: 4px;
     position: fixed;
-    
-   
+    bottom: 49vh;
+    margin-top: .5vh;
+    position: fixed; 
 }
 
-
 .title {
-    height: 5vh;
     display: flex;
-    margin-top: 1vh;
-    color:  silver;
-    width: 16vw;
-   
-    margin-left: 6.52vw;
-
-
+    width: 15vw;
+    height: 4vh;
+    color: silver;
+    margin-top: 32vh;
+    background-color: transparent;
+    justify-content: center;
+    position: absolute;
+    line-height: 0vh;
 }
 
 h1 {
-    margin-top: -.2vh;
-    font-size: 2.7vh;
+    display: flex;
+    width: 15vw;
+    height: 4vh;
+    color: silver;
+    margin-top: 36vh;
+    background-color: transparent;
+    justify-content: center;
+    position: fixed;
+    line-height: 3.5vh;
+    font-size: 3vh;
    
 }
 
@@ -66,7 +75,6 @@ h1 {
     margin-left: 5vw;
     width: 90%;
     min-width: 25%;
-    position: relitive;
     height: 26vh;    
     
     
@@ -118,6 +126,7 @@ h4.home__text.quote.pz__12 {
     color:  silver;
     width: 87vw;
     height: 9.5vh;
+    text-align: left;
     
 }
 
