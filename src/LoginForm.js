@@ -7,32 +7,43 @@ class LoginForm extends Component {
     render() {
         return(
             <div className="LoginContainer">
-                <Form className="LoginForm">
-                    <h1>
-                        <span className="font-weight-bold"></span>
-                    </h1>
-                    <h2>Welcome</h2>
-                    <FormGroup>
-                        <Label>Email</Label>
-                        <Input type="email" placeholder='Email'></Input>
-                    </FormGroup>
-                    <FormGroup>
-                        <Label>Password</Label>
-                        <Input type="password" placeholder='Password'></Input>
-                    </FormGroup>
-                    <Button className='btn-lg btn-dark btn-block'>
-                        <h7>Log in</h7>
-                    </Button>
-                    <div className='text-center pt-3'>
-                        Or Continue with your social account
+                <div className="pic1Container">
+                    <div className="pic1">
+                        <img src="/images/greyTieOffice.jpg" alt="" />
+                        <h1>Welcome to my site</h1>
                     </div>
-                    <FacebookLoginButton className='mt-3 mb-3'/>
-                    <div className='text-center'>
-                        <a href="/sing-up">Sing up</a>
-                        <span className='p-2'>|</span>
-                        <a href="/sing-up">Forgot Password</a>
-                    </div>
-                </Form>
+            </div>
+                <div className="logwrapper">
+                    <Form className="LoginForm">
+                        <div className="welcome">
+                            <h1>Welcome</h1>  
+                        </div>
+                
+                        <FormGroup>
+                            <Label>Email</Label>
+                            <Input type="email" placeholder='Email'></Input>
+                        </FormGroup>
+                        <FormGroup>
+                            <Label>Password</Label>
+                            <Input type="password" placeholder='Password'></Input>
+                        </FormGroup>
+                        <Button className='btn-lg btn-dark btn-block'>
+                            <h7>Log in</h7>
+                        </Button>
+                        <div className='text-center pt-3'>
+                            Or Continue with your social account
+                        </div>
+                        <div className="fbbtn">
+                            <FacebookLoginButton className='mt-3 mb-3'/>
+                        </div>
+                        
+                        <div className='text-center pt-4'>
+                            <a href="/signup">Sign up</a>
+                            <span className='p-2'>|</span>
+                            <b href="/signup">Forgot Password</b>
+                        </div>
+                    </Form>
+                </div>
             </div>
         )
     }
