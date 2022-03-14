@@ -7,36 +7,32 @@
     background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\src\imagess\blackShot.jpg);
     background-size: cover;
     overflow: hidden;
+    justify-content: center;
     background-repeat: no-repeat;
-
+    position: fixed;
 }
 
-
-
-
-
-
-
-
-.paraContainer {
+.paraContainer7 {
     display: flex;
     width: 44vw;
     height: 44.7vh;
-    background: transparent;
+    background: green;
     margin-top: 26.8vh;
-    margin-left: 15vw;
+    margin-left: 0vw;
+    justify-content: center;
+    position: fixed;
 }
-.title3 {
+.title8 {
     line-height: 4vh;
     height: 8.2vh;
-    width: 44vw;
-    margin-top: -5.5vh;
-    margin-left: 15.5vw;
+    width: 38vw;
+    margin-top: -8.5vh;
+    margin-left: 0vw;
     color: silver;
     background: red;
-    font-size: 4.5vh;
+    font-size: 6vh;
     justify-content: center;
-
+    position: fixed;
 }
 
 
@@ -46,8 +42,8 @@
     height: 43vh;
     background: blue;
     position: fixed;
-    margin-top: 30vh;
-    margin-left: 30vw;
+    margin-top: 28vh;
+    margin-left: 0vw;
 
 }
 
