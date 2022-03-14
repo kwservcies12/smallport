@@ -63,15 +63,15 @@
 }
 
 
-.paraContainer {
+.paraContainer2 {
     display: flex;
     width: 44vw;
     height: 44.7vh;
-    background: transparent;
-    margin-top: 26.8vh;
-    margin-left: 39vw;
-    position: fixed;
+    background: blue;
+    margin-top: 21.8vh;
+    margin-left: 38vw;
 }
+
 .title1 {
     line-height: 4vh;
     height: 8.2vh;
@@ -79,7 +79,7 @@
     margin-top: .5vh;
     margin-left: .5vw;
     color: silver;
-    background: transparent;
+    background: red;
     font-size: 4.5vh;
     justify-content: center;
 
@@ -92,6 +92,8 @@
     background-color: transparent;
     line-height: 6.2vh;
     margin-top: .48vh;
+    font-size: 7vh;
+    font-weight: 650;
 
     
 }
@@ -100,7 +102,7 @@
     display: flex;
     margin-left: -.5vh;
     height: 36vh;
-    margin-top: -5vh;
+    margin-top: vh;
     justify-content: left;
     text-align: left;
     font-size: 3vh;

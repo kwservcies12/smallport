@@ -11,7 +11,7 @@ function About() {
                 </div>
             
             </div>
-            <div className="paraContainer">
+            <div className="paraContainer2">
                 <div className="title1">
                     <h2>About</h2>
                     <p>
