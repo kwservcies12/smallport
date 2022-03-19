@@ -1,0 +1,33 @@
+.hub {
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\public\images\metal1.jpg);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+   
+    
+}
+
+.hubContainer {
+    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: transparent;
+    width: 15vw;
+    height: 50vh;
+    margin-top: 20vh;
+    font-size: 3vh;
+    margin-left: 42.2vw;
+    
+}
+
+.hubContainer a {
+    width: 15vw;
+    height: 7vh;
+    display: flex;
+    font-size: 3vh;
+    justify-content: center;
+    line-height: 7vh;
+    background: rgb(54, 50, 50);
+    border-radius: 25px;
+    color: silver;
+}

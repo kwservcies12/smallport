@@ -1,0 +1,112 @@
+.LoginContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    justify-content: space-around;
+    background-image: url(C:\Users\kwser\OneDrive\Desktop\smallport\public\images\metal1.jpg);
+}
+
+.logwrapper {
+    display: flex;
+    width: 28vw;
+    height: 98vh;
+    margin-top: 1vh;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    
+}
+.LoginForm {
+    display: block;
+    margin-top: -10vh;
+    width: 50vw;
+    height:  40vh;
+    max-width: 500px;
+    padding: 15px;
+    background-color: transparent;
+    color: silver;
+    margin-left: 0vw;
+    position: fixed;
+}
+
+.welcome{
+    display: flex;
+    margin-top: -11vh;
+    width: 26.1vw;
+    height: 8vh;
+    margin-left: .5vw;
+    background-color: transparent;
+    justify-content: center;
+    position: fixed;
+}
+
+.welcome h1 {
+    display: flex;
+    width: 31vh;
+    height: 7vh;
+    line-height: 8vh;  
+    font-size: 7vh;
+    margin-top: .5vh;
+    margin-left: .5vh;
+    background-color: transparent;
+    margin-bottom: 2vh;
+    position: fixed; 
+}
+
+label.form-label{ 
+    font-size: 2.5vh;
+}
+
+input.form-control {
+    height: 5vh;
+    font-size: 2.5vh;
+    line-height: 4vh;
+}
+
+
+.text-center.pt-4 {
+    margin-top: 16.5vh;
+    position: fixed;
+}
+
+button.mt-3.mb-3 style {
+    display: flex;
+     width: 25%;
+    height: 5vh;
+    margin-left: -1vw;
+    position: fixed;   
+}
+
+.btn-lg.btn-dark.btn-block.btn.btn-secondary1 {
+    display: flex;
+    width: 29.5%;
+    height: 4vh;
+    margin-top: .5vh;
+    font-size: 2.5vh;
+    align-items: center;
+    vertical-align: center;
+    line-height: 1vh;
+    color: silver;
+    position: fixed;
+    background: blue
+}
+
+/* btn-lg.btn-dark.btn-block.btn.btn-secondary c {
+    color: silver;
+    display: flex;
+    line-height: 2vh;
+} */
+
+
+
+
+
+
+
+
+
+
+
+

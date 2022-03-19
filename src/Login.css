@@ -31,28 +31,31 @@
     position: fixed;
 }
 
-.welcome{
+.greet {
     display: flex;
-    margin-top: -11vh;
-    width: 26.1vw;
-    height: 8vh;
-    margin-left: .5vw;
+    margin-top: -9vh;
+    width: 36.8vw;
+    height: 5vh;
+    margin-left: 0vw;
     background-color: transparent;
     justify-content: center;
     position: fixed;
 }
 
-.welcome h1 {
+.greet h2 {
     display: flex;
-    width: 31vh;
-    height: 7vh;
-    line-height: 8vh;  
-    font-size: 7vh;
-    margin-top: .5vh;
-    margin-left: .5vh;
+    width: 60vh;
+    height: 4vh;
+    line-height: 4vh;  
+    font-size: 4vh;
+    margin-top: 2vh;
+    
     background-color: transparent;
     margin-bottom: 2vh;
     position: fixed; 
+    align-self: center;
+    justify-content: center;
+  
 }
 
 label.form-label{ 
@@ -67,7 +70,7 @@ input.form-control {
 
 .fbbtn {
     display: flex;
-    width: 24.5%;
+    width: 36.8vw;
     height: 6.5vh;
     margin-top: 10vh;
     margin-left: -.5vh;
@@ -76,9 +79,21 @@ input.form-control {
 }
 
 .text-center.pt-4 {
-    margin-top: 16.5vh;
+    width: 36.8vw;
+    margin-top: 19.5vh;
     position: fixed;
+    background-color: transparent;
+    line-height: 4vh;
+    justify-content: center;
 }
+
+.p4con {
+    display: flex;
+    background-color: transparent;
+    height: 5vh;
+    width: 15vw;
+}
+
 
 button.mt-3.mb-3 style {
     display: flex;
@@ -90,7 +105,7 @@ button.mt-3.mb-3 style {
 
 .btn-lg.btn-dark.btn-block.btn.btn-secondary {
     display: flex;
-    width: 24.5%;
+    width: 36.8vw;
     height: 4vh;
     margin-top: .5vh;
     font-size: 2.5vh;
@@ -100,7 +115,7 @@ button.mt-3.mb-3 style {
 .text-center {
     display: flex;
     display: grid;
-    width: 24.5%;
+    width: 36.8vw;
     height: 5vh;
     color: silver;
     font-size: 2.5vh;
@@ -108,7 +123,7 @@ button.mt-3.mb-3 style {
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 5vh;
+    margin-top: 6vh;
     background: transparent;
     position: fixed;   
 }
@@ -119,9 +134,9 @@ button.mt-3.mb-3 style {
     width: 5vw;
     background: transparent;
     height: 3vh;
-    margin-top: 0vh;
+    margin-top: .5vh;
     font-size: 2.5vh;
-    margin-left: 5vw;
+    margin-left: 0vw;
     position: fixed;   
 }
 
@@ -135,17 +150,17 @@ button.mt-3.mb-3 style {
     color: silver;
     margin-top: .5vh;
     margin-right: -5vw;
-    margin-left: 10vw;
+    margin-left: 4.5vw;
     position: fixed;
 }
 
 .text-center b {
     width: 10vw;
     display: flex;
-    margin-left: 11vw;
+    margin-left: 5.5vw;
     font-size: 2.5vh;
     font-weight: 300;
-    margin-top: 1vh;
+    margin-top: .6vh;
     margin-right: -6vw;
     position: fixed;
 }

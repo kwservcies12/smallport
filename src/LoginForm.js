@@ -10,13 +10,13 @@ class LoginForm extends Component {
                 <div className="pic1Container">
                     <div className="pic1">
                         <img src="/images/greyTieOffice.jpg" alt="" />
-                        <h1>Welcome to my site</h1>
+                        <h1>Glad your interested</h1>
                     </div>
             </div>
                 <div className="logwrapper">
                     <Form className="LoginForm">
-                        <div className="welcome">
-                            <h1>Welcome</h1>  
+                        <div className="greet">
+                            <h2>Please login to see details</h2>  
                         </div>
                 
                         <FormGroup>
@@ -38,9 +38,11 @@ class LoginForm extends Component {
                         </div>
                         
                         <div className='text-center pt-4'>
-                            <a href="/signup">Sign up</a>
-                            <span className='p-2'>|</span>
-                            <b href="/signup">Forgot Password</b>
+                            <div className="p4con">
+                                <a href="/signup">Sign up</a>
+                                <span className='p-2'>|</span>
+                                <b href="/signup">Forgot Password</b>
+                            </div>
                         </div>
                     </Form>
                 </div>
